@@ -1,0 +1,199 @@
+
+body {
+    background-image: url("LightBg.png");
+    background-repeat: repeat;
+}
+
+#genButton {
+  margin: 10px 0;	
+}
+#percent {
+	font-weight: bold;
+}
+.hidden {
+	display: none;
+}
+
+#logo img {
+	display: block;
+	width: 30%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 16px;
+}
+
+#creativeContainer{
+    display: table-row;
+}
+
+#creativeContainer div{
+	display: table;
+}
+#creativeContainer div div{
+	display: table-cell;
+}
+
+#creativeContainer input[type="text"] {
+	padding: 0 3px;
+	border: solid 2px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+	width: 40px;
+    height: 15px;
+	z-index: 9999;
+}
+
+#creativeContainer input[type="text"]:focus, #creativeContainer input[type="text"].focus
+	{
+	border: solid 2px #707070;
+	box-shadow: 0 0 10px 2px #FF8D00;
+	z-index: 9999;
+}
+
+#buttonHolder div {
+	text-align: center;
+	display: inline-block;
+}
+
+
+.fsSubmitButton {
+	display: inlin-block;
+    padding: 4px 8px 5px !important;
+    font-size: 14px !important;
+    background-color: #2185F7;
+    font-weight: bold;
+    text-shadow: 1px 1px #2185F7;
+    text-align: left !important;
+    color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #2185F7;
+    cursor: pointer;
+    box-shadow: 0 1px 0 #ffffff80 inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 #ffffff80 inset;
+}
+
+#follow {
+	padding: 5px;
+	border: 5px solid orange;
+	margin: 5px;
+    background-color: #faebd7;
+}
+
+/*Tab Css */
+.tabActive {
+	width: 50%;
+    padding: 47px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 25px;
+	border: 2px solid #222;
+	clear: both;
+}
+
+.tabs {
+	width: 100%;
+	float: left;
+	display: inline-block;
+}
+
+.tabLinks:after {
+	display: block;
+	clear: both;
+	content: '';
+
+}
+
+.tabLinks {
+	text-align: center;
+	border: 0px red dotted;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	margin-left: -35px;	
+	padding-bottom: 16px;	
+}
+
+@media screen and (min-width: 650px) { 
+
+	.tabLinks li {
+		display: inline-block;
+		list-style: none;
+		margin: 0 10px 0 0; 
+	}
+}
+
+@media screen and (max-width: 650px) { 
+
+	.tabLinks li {
+		display: block;
+		list-style: none;
+		margin: 0 0 10px  0; 
+	}
+	
+}
+
+
+
+.tabLinks a {
+	padding: 9px 15px;
+	display: inline-block;
+	border-radius: 3px 3px 0px 0px;
+	background: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	color: #4c4c4c;
+	transition: all linear 0.15s;
+}
+
+.tabLinks a:hover {
+	background: #a7cce5;
+	text-decoration: none;
+}
+
+li.active a, li.active a:hover {
+	background: #7fffd4;
+	color: #4c4c4c;
+}
+
+.tab-content {
+	padding: 5px;
+	border-radius: 3px;
+	background: #fff;
+}
+
+.tab {
+	display: none;
+}
+
+.tab.active {
+	display: block;
+}
+
+.roundedcorners {
+	border-radius: 25px;
+	border: 2px solid #239ECA;
+	padding: 20px;
+	width: auto;
+	height: auto;
+}
+
+.errorMessage {
+	color: red;
+	font-weight: bold;
+}
+
+.successMessage {
+	color: green;
+	font-weight: bold;
+}
+
+div.class:empty { 
+    border: none;
+}
+
+.wwFormTable div {
+	text-align: left;
+}
