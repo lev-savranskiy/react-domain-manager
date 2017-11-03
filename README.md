@@ -2,7 +2,7 @@
 
 ### Tech
 
-Single JSX file with live babel compile
+Single JSX file with live babel compilation
 
 `mockapi.io` used as backend
 
